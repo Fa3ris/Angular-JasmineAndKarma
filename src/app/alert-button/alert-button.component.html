@@ -1,0 +1,19 @@
+<div>
+
+    <h1>Alert Button</h1>
+
+    <div *ngIf="isVisible" class="message">
+        
+        <div class="message-header">
+            Warning code : {{severity}}
+        </div>
+
+        <div class="message-content">
+            {{content}}
+        </div>
+
+    </div>
+
+    <button (click)="toggle()">Toggle Button</button>
+
+</div>

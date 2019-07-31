@@ -1,3 +1,24 @@
+# Karma
+Set the web server that will run all test files automatically everytime a file is modified
+
+# Protractor
+Used for End-to-End tests (e2e)
+
+# TEST related files
+
+## karma.conf.js
+Customize Karma behavior
+
+## protractor.conf.js
+End-to-End tests
+
+## test.ts
+Create the test bed and load all test files
+
+## app.component.spec.ts
+Test file for AppComponent
+
+
 # JasmineAndKarma
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.

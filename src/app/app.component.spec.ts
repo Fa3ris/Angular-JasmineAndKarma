@@ -1,11 +1,14 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { AlertButtonComponent } from './alert-button/alert-button.component';
 
+// describe the Test Suite of the component that will be tested
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        AlertButtonComponent // declare the component used in the template
       ],
     }).compileComponents();
   }));
